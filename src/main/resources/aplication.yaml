@@ -1,0 +1,28 @@
+spring:
+  mail:
+    host: smtp.gmail.com
+    port: 587
+    username: winsoftinformatica2012@gmail.com
+    password: exgb ssvl ezrd ffwy
+    protocol: smtp
+
+    properties:
+      mail:
+        smtp:
+          auth: true
+          starttls:
+            enable: true
+          connectiontimeout: 5000
+          timeout: 3000
+          writetimeout: 5000
+
+  thymeleaf:
+    enabled: true
+
+envio:
+  email:
+    remetente: winsoftinformatica2012@gmail.com
+    nomeRemetente: 'Vitor Moraes'
+
+server:
+  port: 8082
